@@ -1,0 +1,31 @@
+form.nosubmit {
+    border: none;
+    padding-left: 10%;
+    margin-top: 100px;
+}
+
+input.nosubmit {
+    text-align: center;
+    width: 80%;
+    border: 1px solid #555;
+    display: block;
+    padding: 9px 4px 9px 40px;
+    border-radius: 5px;
+}
+
+.bottom-div {
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+    float: left;
+}
+
+@media screen and (max-width: 700px) {
+    .bottom-div {
+        width: 80%;
+        margin-top: 0;
+    }
+    img {
+        width: 100%;
+    }
+}

@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+button {
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 175px;
+    border-radius: 7px;
+}
+
+.login {
+    background-color: #0ed47e;
+}
+
+.register- {
+    background-color: #3e74e0;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.left-log {
+    width: 55%;
+    float: left;
+    padding: 20px;
+    text-align: center;
+    border-right: 2px solid black;
+    border-radius: 1px;
+}
+
+.right-log {
+    width: 40%;
+    float: left;
+    padding: 20px;
+    text-align: center;
+}
+
+.margin {
+    margin-top: 100px;
+}
+
+.bottom-div {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .left-log,
+    .right-log {
+        width: 100%;
+        margin-top: 0;
+    }
+    .left-log {
+        border-right: none;
+    }
+}
